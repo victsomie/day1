@@ -17,15 +17,13 @@ body{
 }
 
 .container{
-     width: 100%;
+     width: 700px;
      background: yellow;
 }
 
 .col-1-4{
      width: 25%;
      display: inline-block;
-     margin: 0;
-     padding:0;
      vertical-align: top
 }
 
@@ -50,7 +48,7 @@ body{
      margin: 0;
      padding: 0;
      float: left;
-     vertical-align: top
+     vertical-align:top
 }
 
 .col-1-5{
@@ -60,16 +58,15 @@ body{
 
 
 
+.bottom{
+     vertical-align:text-bottom;
+}
+
+
 /*=========Typography=========*/
 a{
      color:whitesmoke;
      text-decoration: none;
-}
-
-
-.combined{
-     min-height: 3px;
-     background-color: red;
 }
 
 
@@ -85,7 +82,7 @@ a{
 }
 
 .left{
-     background-color: dimgrayy;
+     background-color: dimgray;
      height: 100%;
 }
 
@@ -97,8 +94,7 @@ a{
 }
 .image{
      box-sizing: border-box;
-     margin: 5px;
-     padding: 5px
+     padding: 3px
 }
 .image:hover{
      background-color: gainsboro;
