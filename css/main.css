@@ -1,0 +1,95 @@
+*{
+     box-sizing: border-box;
+}
+
+html{
+     background: linear-gradient(blue, gray); /* Standard syntax (must be last) */
+     min-height: 100%;
+}
+
+
+body{
+     background-color: white;
+     display: block;
+     width: px;
+     height: 500px;
+     margin: 150px;
+}
+
+.container{
+     width: 100%;
+     background: yellow;
+}
+
+.col-1-4{
+     width: 25%;
+     display: inline-block;
+     margin: auto
+}
+
+.col-3-4{
+     display: inline-block;
+     width: 75%;
+     margin: 0
+}
+
+.col-1-5{
+     width: 20%;
+     display: inline-block;
+}
+
+
+
+/*=========Typography=========*/
+a{
+     color:whitesmoke;
+     text-decoration: none;
+}
+
+
+
+
+/*=======Style left=========*/
+.logo{
+     text-align: center;
+}
+.logo img{
+     text-align: center;
+     width: 30px;
+}
+
+.left{
+     position: relative;
+     background-color: dimgray;
+     height: 100%;
+}
+
+
+/*=======Style Right=========*/
+.right{
+     position: relative;
+     background-color: ;
+     height: 100%;
+}
+.image{
+     box-sizing: border-box;
+     margin: 5px;
+     padding: 5px
+}
+.image:hover{
+     background-color: gainsboro;
+     opacity: 0.5;
+}
+
+.gallery img{
+     width: 100%;
+     height: auto;
+}
+.gallery .name{
+     
+}
+.gallery .size{
+     color: darkgray;
+}
+
+
