@@ -4,7 +4,7 @@
 }
 
 html{
-     background: linear-gradient(blue, gray, blue); /* Standard syntax (must be last) */
+     background: linear-gradient(blue, gray, brown,blue); /* Standard syntax (must be last) */
      min-height: 100%;
 }
 
